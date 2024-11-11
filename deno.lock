@@ -1,0 +1,37 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.7",
+    "jsr:@std/cli@*": "1.0.6",
+    "jsr:@std/cli@^1.0.6": "1.0.6",
+    "jsr:@std/internal@^1.0.5": "1.0.5"
+  },
+  "jsr": {
+    "@std/assert@1.0.7": {
+      "integrity": "64ce9fac879e0b9f3042a89b3c3f8ccfc9c984391af19e2087513a79d73e28c3",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/cli@1.0.6": {
+      "integrity": "d22d8b38c66c666d7ad1f2a66c5b122da1704f985d3c47f01129f05abb6c5d3d"
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "remote": {
+    "https://deno.land/x/deno_usbhidapi@v0.4.0/mod.ts": "0cd49f7c239b5e4eee591a7426c5e93fe486af18d1a5f32f3b41954f178d1a9f",
+    "https://deno.land/x/deno_usbhidapi@v0.4.0/src/hid.ts": "7dbd5b45cdc6e8d09d9324eceaeabeb6a7ed9a321624e30e5be568798e9fb30c",
+    "https://deno.land/x/deno_usbhidapi@v0.4.0/src/hidapi.ts": "71d7d93796044dd70fa966f595100378b42bf17c0b97546a04b4d2de5755f6dd",
+    "https://deno.land/x/deno_usbhidapi@v0.4.0/src/symbols.ts": "391620109a161764358215d95c264202b7ef65139f83794dc09da593246ed0f0",
+    "https://deno.land/x/deno_usbhidapi@v0.4.0/src/types.ts": "f4a4d182803456eeaa05472dea002e12512966d8e1115e86157c7e1f06f8ac43",
+    "https://deno.land/x/deno_usbhidapi@v0.4.0/src/utils.ts": "942807c5081fcd0497c50a99598f659af7b2dcba2ca7fe52d71182e607678cbe"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "jsr:@std/cli@^1.0.6"
+    ]
+  }
+}
